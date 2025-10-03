@@ -17,7 +17,9 @@ I have checked that ai pirates mostly take the videos but still maintain the tit
 Youtube data v3 api has a usage limit per day, and this cannot be increased without permission from google side. I thought I will be able to grant more quotas for this if I have a method to pay, but it was not how it works for the youtube api. So...initially, I wanted to scan and search for all videos in my mother's channel, but that made me run out of the daily quota so easily. That made me consume another day to complete making this system since I could not test any further.
 
 # point of improvement?
-A lot of improvements can be made. For example, I can try to get some api that reads the subtitle or creates a script(subtitles) once a video link is given so make ai check if the scripts have the similar information for the first 1 minute. By doing so, I don't even have to manually check the suspicious videos by myself.
+A lot of improvements can be made. For example...  
+I can try to get some api that reads the subtitle or creates a script(subtitles) once a video link is given so make ai check if the scripts have the similar information for the first 1 minute. By doing so, I don't even have to manually check the suspicious videos by myself.  
+Also, I can try to add the database since the most popular video in my mother's channel won't change every single day. Making a system that updates the database only when changes have been detected will allow me to save the youtube api daily quota and embedding model token usage.  
 
 # Does it work?
 well, when I previously searched the original video's title, I could find the ai pirate's video right away. However, No videos have been pirated after making this system, so could not check it yet. I will see if it works in the future, running this system once every week.
